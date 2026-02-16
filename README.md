@@ -1,13 +1,13 @@
 # EXPERIMENT-01-INTERFACING-A-DIGITAL-OUTPUT-TO-IOT-DEVELOPMENT-BOARD
 
 
-**DATE:**
+**DATE: 02/02/2026**
 
-**NAME:**
+**NAME: HARINE S**
 
-**ROLL NO:**
+**ROLL NO: 212224230081**
 
-**DEPARTMENT:**
+**DEPARTMENT: B.Tech(AI&DS)**
 
 ## Aim
 
@@ -98,11 +98,53 @@ With its power-efficient design, built-in LoRaWAN support, and flexible communic
 
 ## STM 32 CUBE PROGRAM
 
+1A- CODE
 ```
-// Your STM 32 CUBE Program code here
+while (1)
+  {
+    /* USER CODE END WHILE */
+HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_SET);
+HAL_Delay(5000);
+
+HAL_GPIO_WritePin(GPIOA, GPIO_PIN_0, GPIO_PIN_RESET);
+HAL_Delay(5000);
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
+
+```
+1B - CODE
+```
+while (1)
+{
+    /* USER CODE END WHILE */
+HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_SET);
+HAL_Delay(5000);
+
+HAL_GPIO_WritePin(GPIOB, GPIO_PIN_5, GPIO_PIN_RESET);
+HAL_Delay(5000);
+    /* USER CODE BEGIN 3 */
+  }
+  /* USER CODE END 3 */
+}
+
 ```
 
 ## OUTPUT
+
+1A - OUTPUT
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/b58e36f2-0e47-4aed-9bb0-5303529b3bde" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/e60a9355-d9a1-4cbc-a849-204e9cb10aed" />
+
+1B - OUTPUT
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/0033446b-ed40-41a1-bc87-79655bca5dd7" />
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/1c72e9d0-c774-41aa-b39b-d67f466246af" />
+
 
 ## Result
 
